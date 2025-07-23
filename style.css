@@ -377,3 +377,15 @@ section::before{
     font-size: 16px;
   }
 }
+
+
+@media(max-width:454px){
+  ul.nev {
+        flex-wrap: nowrap;         /* enable horizontal scroll */
+        white-space: nowrap;
+    }
+
+    .nav-item{
+      font-size:15px;
+    }
+}
